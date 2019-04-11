@@ -88,3 +88,14 @@ height: 200px;
 .btn-primary:hover{
     background-color: #c79316;
 }
+
+#dis{
+    width: 25%;
+    height: 25%;
+    align-content: center;
+    margin: 10px;
+}
+
+#desp{
+    margin: 10px;
+}

@@ -18,16 +18,6 @@
 
   </head>
   <body>
-        <div class="container-fluid">
-          <div class="row">
-              <div class="col-12 wrapper-img-top">
-                <img src="{{asset('images/patrocinadores.png')}}" alt="" class="img-fluid">
-              </div>
-          </div>
-        </div>
-
-
-
       <div class="container-fluid">
           <div class="row">
               <div class="col-12 wrapper-img-top">
@@ -46,7 +36,7 @@
                     <a class="nav-link" href="{{route('index.index')}}">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('ajedrez.index')}}">Acerca De</a>
+                    <a class="nav-link" href="">Acerca De</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Noticias</a>
@@ -77,7 +67,15 @@
         @yield('content')
     </main>
 
-  <footer class="bd-footer text-muted text-center ">      
+  <footer class="bd-footer text-muted text-center "> 
+    <div class="container-fluid">
+          <div class="row">
+              <div class="col-12 wrapper-img-top">
+                <img src="{{asset('images/patrocinadores.png')}}" alt="" class="img-fluid">
+              </div>
+          </div>
+    </div>
+
             <div id="bandgold">
 
             </div>    
